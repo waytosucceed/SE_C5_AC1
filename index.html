@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AC1</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <img src="./logo/Logo.png" alt="Logo" class="logo" />
+        <img src="./logo/header.png" alt="Header" class="header-image" />
+    </header>
+
+    <div class="container mt-5">
+        <h1 class="text-center">SERIES COMPLETION</h1>
+        <p class="text-center">Click on each topic to learn more.</p>
+        <div class="row">
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#seriesCompletionModal">
+                    Series Completion
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type1">
+                    Constant Addition in Numbers
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type2">
+                    Constant Subtraction in Numbers
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type3">
+                    Addition in Increasing Order
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type4">
+                    Addition in Increasingly Increasing Order
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type5">
+                    Multiply by Numbers in Increasing Order
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type6">
+                    Addition of Prime Numbers
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type7">
+                    Addition/Subtraction of Squares
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type8">
+                    Addition/Subtraction of Cubes
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type9">
+                    Two/Three Series Going Together
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type10">
+                    Series of Prime Numbers Only
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type11">
+                    Addition/Subtraction of Constant Numbers in Perfect Squares
+                </button>
+            </div>
+            <div>
+                <button class="btn btn-custom btn-block" data-toggle="modal" data-target="#type12">
+                    Addition/Subtraction of Constant Numbers in Perfect Cubes
+                </button>
+            </div>
+            
+        </div>
+        
+        
+
+</div>
+
+        <!-- Modals -->
+        <div class="modal fade" id="seriesCompletionModal" tabindex="-1" aria-labelledby="seriesCompletionLabel" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="seriesCompletionLabel">Series Completion</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">Series Completion</strong>:
+                                    A series is a list of numbers, letters, or a combination of both that follow a certain pattern. Although, we will only focus on number series in this class. 
+                                    <br>In series completion, we figure out what comes next, fill in the blanks, or find a mistake in the pattern.
+                                    <br><br>
+                                    <strong style="color: #28a745;">Types of Questions for Number Series</strong>:
+                                    Generally, the questions asked in series completion of numbers are of 12 types:
+                                    <ul>
+                                        <li><strong>Type 1</strong>: Constant Addition in Numbers</li>
+                                        <li><strong>Type 2</strong>: Constant Subtraction in Numbers</li>
+                                        <li><strong>Type 3</strong>: Addition in increasing order</li>
+                                        <li><strong>Type 4</strong>: Addition in increasingly increasing order</li>
+                                        <li><strong>Type 5</strong>: Multiply by numbers in increasing order.</li>
+                                        <li><strong>Type 6</strong>: Addition of Prime numbers</li>
+                                        <li><strong>Type 7</strong>: Addition/Subtraction of Squares</li>
+                                        <li><strong>Type 8</strong>: Addition/Subtraction of Cubes</li>
+                                        <li><strong>Type 9</strong>: Two/three series going together.</li>
+                                        <li><strong>Type 10</strong>: Series of Prime Numbers only</li>
+                                        <li><strong>Type 11</strong>: Addition/Subtraction of constant numbers in perfect squares</li>
+                                        <li><strong>Type 12</strong>: Addition/Subtraction of constant numbers in perfect cubes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="type1" tabindex="-1" aria-labelledby="type1" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type1">Constant Addition in Numbers</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 1</strong>: Constant Addition in Numbers
+                                    <br><br>
+                                    In this series, the same number is added repeatedly to get the next term.
+                                    <br><br>
+                                    <strong>Example</strong>: 2, 4, 6, 8, 10, …
+                                    <br>
+                                    <strong>Pattern</strong>: Add 2 to each term.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type2" tabindex="-1" aria-labelledby="type2" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type2">Constant Subtraction in Numbers</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 2</strong>: Constant Subtraction in Numbers
+                                    <br><br>
+                                    In this series, the same number is subtracted repeatedly to get the next term.
+                                    <br><br>
+                                    <strong>Example</strong>: 20, 18, 16, 14, …
+                                    <br>
+                                    <strong>Pattern</strong>: Subtract 2 from each term.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type3" tabindex="-1" aria-labelledby="type3" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type3">Addition in Increasing Order</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 3</strong>: Addition in Increasing Order
+                                    <br><br>
+                                    In this series, the added number increases consistently by a fixed value.
+                                    <br><br>
+                                    <strong>Example</strong>: 2, 3, 5, 8, 12, …
+                                    <br>
+                                    <strong>Pattern</strong>: Add +1 (from 2 to 3), +2 (from 3 to 5), +3 (from 5 to 8), +4 (from 8 to 12), … to the previous term.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type4" tabindex="-1" aria-labelledby="type4" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type4">Addition in Increasingly Increasing Order</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 4</strong>: Addition in Increasingly Increasing Order
+                                    <br><br>
+                                    In this series, the numbers added increase progressively faster.
+                                    <br><br>
+                                    <strong>Example</strong>: 1, 2, 4, 8, 16, …
+                                    <br>
+                                    <strong>Pattern</strong>: Add numbers in the sequence +1, +2, +4, +8, ….
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type5" tabindex="-1" aria-labelledby="type5" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type5">Multiply by Numbers in Increasing Order</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 5</strong>: Multiply by Numbers in Increasing Order
+                                    <br><br>
+                                    In this series, the terms are multiplied by increasing numbers.
+                                    <br><br>
+                                    <strong>Example</strong>: 2, 4, 12, 48, 240, …
+                                    <br>
+                                    <strong>Pattern</strong>: Multiply by 2, 3, 4, 5, ….
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type6" tabindex="-1" aria-labelledby="type6" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type6">Addition of Prime Numbers</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 6</strong>: Addition of Prime Numbers
+                                    <br><br>
+                                    In this series, consecutive prime numbers are added to each term.
+                                    <br><br>
+                                    <strong>Example</strong>: 2, 5, 10, 17, 28, …
+                                    <br>
+                                    <strong>Pattern</strong>: Add 2, 3, 5, 7, 11, … (prime numbers).
+                                    <br><br>
+                                    <b>The prime numbers between 1 and 100 are:</b> 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, and 97. Observe these numbers closely to recognize patterns.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type7" tabindex="-1" aria-labelledby="type7" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type7">Addition/Subtraction of Squares</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 7</strong>: Addition/Subtraction of Squares
+                                    <br><br>
+                                    In this series, the terms are increased or decreased by perfect squares.
+                                    <br><br>
+                                    <strong>Example</strong>: 5, 6, 10, 19, 35, …
+                                    <br>
+                                    <strong>Pattern</strong>: Add +1², +2², +3², +4², ….
+                                    <br><br><b>Here are the first 10 perfect squares:</b><br>
+                                    1² = 1 × 1 = 1<br>
+2² = 2 × 2 = 4<br>
+3² = 3 × 3 = 9<br>
+4² = 4 × 4 = 16<br>
+5² = 5 × 5 = 25<br>
+6² = 6 × 6 = 36<br>
+7² = 7 × 7 = 49<br>
+8² = 8 × 8 = 49<br>
+9² = 9 × 9 = 81<br>
+10² = 10 × 10 = 100<br>
+                                    <br>Use them to recognise the underlying pattern.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type8" tabindex="-1" aria-labelledby="type8" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type8">Addition/Subtraction of Cubes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 8</strong>: Addition/Subtraction of Cubes
+                                    <br><br>
+                                    In this series, perfect cubes are added or subtracted.
+                                    <br><br>
+                                    <strong>Example</strong>: 1, 9, 36, 100, …
+                                    <br>
+                                    <strong>Pattern</strong>: Add +1³, +2³, +3³, +4³, ….
+                                    <br><br><b>Here are the first 10 perfect cubes:</b>
+                                    <br>
+                                    1³ = 1 × 1 × 1 = 1<br>
+2³ = 2 × 2 × 2 = 8<br>
+3³ = 3 × 3 × 3 = 27<br>
+4³ = 4 × 4 × 4 = 64<br>
+5³ = 5 × 5 × 5 = 125<br>
+6³ = 6 × 6 × 6 = 216<br>
+7³ = 7 × 7 × 7 = 343<br>
+8³ = 8 × 8 × 8 = 512<br>
+9³ = 9 × 9 × 9 = 729<br>
+10³ = 10 × 10 × 10 = 1000<br>
+<br>Use them to recognise the underlying pattern.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type9" tabindex="-1" aria-labelledby="type9" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type9">Two/Three Series Going Together</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 9</strong>: Two/Three Series Going Together
+                                    <br><br>
+                                    In this type, multiple series progress simultaneously, each following its own pattern, or the lower series is obtained by subtracting or adding a number in the upper series term. 
+                                    <br><br>
+                                    <strong>Example</strong>:<br>
+                                    4, 8, 16, 32, 64<br>
+                                    3, 7, 15, 31, 63
+                                    <br>
+                                    <strong>Pattern</strong>:
+                                    <ul>
+                                        <li><strong>First series</strong>: 4, 8, 16, 32, 64 (multiply each term by 2).</li>
+                                        <li><strong>Second series</strong>: 3 7 15  31  63 (subtract 1 in the corresponding upper term).</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type10" tabindex="-1" aria-labelledby="type10" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type10">Series of Prime Numbers Only</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 10</strong>: Series of Prime Numbers Only
+                                    <br><br>
+                                    In this series, all terms are prime numbers.
+                                    <br><br>
+                                    <strong>Example</strong>: 2, 3, 5, 7, 11, …
+                                    <br>
+                                    <strong>Pattern</strong>: Consecutive prime numbers.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type11" tabindex="-1" aria-labelledby="type11" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type11">Addition/Subtraction of Constant Numbers in Perfect Squares</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 11</strong>: Addition/Subtraction of Constant Numbers in Perfect Squares
+                                    <br><br>
+                                    In this series, a constant number is added to perfect squares.
+                                    <br><br>
+                                    <strong>Example</strong>: 2, 5, 10, 17, 26, …
+                                    <br>
+                                    <strong>Pattern</strong>: 1²+1, 2²+1, 3²+1, 4²+1, ….
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="type12" tabindex="-1" aria-labelledby="type12" aria-hidden="true">
+            <div class="modal-dialog custom-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="type12">Addition/Subtraction of Constant Numbers in Perfect Cubes</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-container">
+                            <div class="text-content">
+                                <div style="font-size: 1.5rem;">
+                                    <strong style="color: #007bff;">TYPE 12</strong>: Addition/Subtraction of Constant Numbers in Perfect Cubes
+                                    <br><br>
+                                    In this series, a constant number is added to or subtracted from perfect cubes.
+                                    <br><br>
+                                    <strong>Example</strong>: 3, 10, 29, 66, …
+                                    <br>
+                                    <strong>Pattern</strong>: 1³+2, 2³+2, 3³+2, 4³+2, ….
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+               
+        
+        
+
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

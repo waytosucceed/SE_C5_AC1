@@ -1,0 +1,144 @@
+.header {
+  /* width: 100%; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 5px 30px;
+  background-color: white;
+  text-align: left;
+}
+body {
+  background-color: #caffff; /* Light gray background */
+  img{
+    margin-top: 10px;
+  }
+}
+
+.logo {
+  width: 5%; /* Slightly larger logo */
+}
+img {
+  vertical-align: middle;
+}
+.header-image {
+  width: 30%;
+  height: auto;
+  margin-bottom: 10px;
+}
+/* Increase the size of headers */
+h1 {
+  font-size: 2.5rem; /* Adjust as needed */
+}
+
+h5 {
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+/* Increase the size of paragraphs */
+p {
+  font-size: 1.4rem; /* Adjust as needed */
+}
+/* 
+
+/* Increase size of modal titles and body text */
+.modal-title {
+  font-size: 1.5rem; /* Adjust as needed */
+}
+.modal-body {
+  overflow-y: auto; /* Add vertical scroll if needed */
+}
+.modal-body p {
+  font-size: 1.2rem; /* Adjust as needed */
+}
+
+/* Adjust the width of the modal dialog */
+.modal-dialog.custom-dialog {
+  width: 90vw; /* Increase to your desired width */
+  max-width: none; /* Remove any default max-width */
+  height: 89vh; /* Increase to your desired height */
+  max-height: none; /* Remove any default max-height */
+  /* margin: auto;  */
+}
+
+/* Ensure the modal content takes the full width of the modal dialog */
+.modal-content {
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+/* Custom button styles */
+.btn-custom {
+  background: linear-gradient(145deg, #007bff, #0056b3); /* Adjust colors */
+  border: none;
+  color: white;
+  border-radius: 12px; /* Increase border-radius for a more rounded look */
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3),
+    -8px -8px 15px rgba(255, 255, 255, 0.5); /* Stronger shadow */
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+  padding: 10px 20px; /* Add padding for a better touch */
+  text-transform: uppercase; /* Make button text uppercase */
+}
+
+.btn-custom:hover {
+  background: linear-gradient(
+    145deg,
+    #0056b3,
+    #007bff
+  ); /* Inverse gradient for hover */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4),
+    -10px -10px 20px rgba(255, 255, 255, 0.4); /* Enhanced shadow */
+}
+
+.btn-custom:focus {
+  outline: none;
+}
+
+.content-container {
+  display: flex;
+  align-items: center; /* Align items at the top */
+  justify-content: space-between; /* Space out the text and image */
+}
+.text-content {
+  flex: 1.5;
+}
+.text-content{
+  ul{
+    li{
+      /* font-size: 1.2rem; */
+    }
+  }
+
+}
+.image-content {
+  flex: 0.5;
+  /* text-align: right; */
+}
+.image-content img {
+  /* width: 40%;  */
+  height: auto;
+}
+.modal-img {
+  margin-bottom: 1.5rem;
+}
+
+.operator-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.operator-section p {
+    font-size: 1.2em;
+    margin: 0;
+    margin-bottom: 0.6rem;
+
+    color: #555;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
